@@ -30,7 +30,7 @@ public class S4programm1 {
 
             if (inputString.equals("revert")) {
                 wordsList.removeLast();
-                System.out.println(wordsList.removeLast());
+                System.out.println(wordsList);
             }
 
             if (inputString.equals("exit")) {
