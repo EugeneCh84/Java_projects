@@ -10,7 +10,7 @@ public class S2programm2 {
     public static void main(String[] args) {
         
         
-    }
+    
     
         public StringBuilder generateString() {
             StringBuilder sb = new StringBuilder();
@@ -20,7 +20,8 @@ public class S2programm2 {
                 return sb;
                 //System.out.println(sb);
             
-    }
+        }
+        
         public void writer() {
             try {
                 FileOutputStream fileOutputStream = new FileOutputStream("test.txt");
@@ -34,7 +35,7 @@ public class S2programm2 {
                     e.printStackTrace();
                 }
         }
+    }
 }
-
-    
+  
 
